@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SecurityTestingPlugin-ZedAttackProxy
+Bundle-SymbolicName: com.polyhedral.security.testing.zedattackproxy;singleton:=true
+Bundle-Version: 0.3.2
+Bundle-Activator: com.polyhedral.security.testing.zedattackproxy.Activator
+Bundle-Vendor: Polyhedral Technologies LLC
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jdt.core,
+ org.eclipse.debug.core,
+ org.eclipse.jdt.launching,
+ org.eclipse.ui.console,
+ org.eclipse.text,
+ com.polyhedral.security.testing.core
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ lib/zap-api-v2-5.jar,
+ lib/encoder-1.2.jar,
+ lib/commons-lang3-3.4.jar

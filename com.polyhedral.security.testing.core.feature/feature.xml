@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.polyhedral.security.testing.core.feature"
+      label="Security Testing - Core"
+      version="0.3.2"
+      provider-name="Polyhedral Technologies LLC">
+
+   <description>
+      Core feature to access the Security Testing tools plugin suite.
+   </description>
+
+   <copyright>
+      Copyright (C) 2015 Polyhedral Technologies LLC
+
+Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.
+   </copyright>
+
+   <license url="http://www.apache.org/licenses/LICENSE-2.0">
+      This program is free software; you can redistribute it and/or modify it under the terms of the Apache License, Version 2.0.  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the Apache License, Version 2.0 for more details.
+   </license>
+
+   <plugin
+         id="com.polyhedral.security.testing.core"
+         download-size="0"
+         install-size="0"
+         version="0.3.2"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.polyhedral.security.testing.zedattackproxy.feature"
+      label="Security Testing - Zed Attack Proxy"
+      version="0.3.2"
+      provider-name="Polyhedral Technologies LLC">
+
+   <description>
+      A plugin to access the ZAP API features and run a Spider and Ascan against any target URL, with options to configure many standard Spider and Ascan features.
+   </description>
+
+   <copyright>
+      Copyright (C) 2015 Polyhedral Technologies LLC
+
+Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.
+   </copyright>
+
+   <license url="http://www.apache.org/licenses/LICENSE-2.0">
+      Disclaimer: This program is a wrapper for the Zed Attack Proxy product produced and distributed by OWASP.  You should only use this software to test the security of your own web application or those you are authorized to do so.  The authors of this product take no responsibility for any problems in relation to running OWASP ZAP against any applications or machines.
+
+This program is free software; you can redistribute it and/or modify it under the terms of the Apache License, Version 2.0.  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the Apache License, Version 2.0 for more details.
+
+OWASP ZAP is a fork of the open source Paros Proxy product developed by Chinotec Technologies Company.  The Paros Proxy is Copyright (C) 2003-2005 Chiotec Technologies Company and is licensed under the Clarified Artistic License as published by the Free Software Foundation.
+
+This product includes software developed by the Apache Software Foundation licensed under Apache License 2.0.  HSQLDB is licensed under BSD license.  JDIC is licensed by Sun Microsystems, Inc. under the LGPL license.  OWASP ZAP also contains BeanShell, which is licensed under LGPL.  The Copyrights of these softwares belong to their respective owners.
+   </license>
+
+   <requires>
+      <import feature="com.polyhedral.security.testing.core.feature" version="0.3.2"/>
+   </requires>
+
+   <plugin
+         id="com.polyhedral.security.testing.zedattackproxy"
+         download-size="0"
+         install-size="0"
+         version="0.3.2"
+         unpack="false"/>
+
+</feature>
