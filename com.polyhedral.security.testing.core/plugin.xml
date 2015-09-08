@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            id="com.polyhedral.security.testing.core.category"
+            name="Security Testing">
+      </category>
+   </extension>
+   <extension
+         point="org.eclipse.help.contexts">
+      <contexts
+            file="contexts.xml">
+      </contexts>
+   </extension>
+
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            name="Security Testing"
+            class="com.polyhedral.security.testing.core.preferences.RootPreferencePage"
+            id="com.polyhedral.security.testing.preferences">
+      </page>
+   </extension>
+
+</plugin>

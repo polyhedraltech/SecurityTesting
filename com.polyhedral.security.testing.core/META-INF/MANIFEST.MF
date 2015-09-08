@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SecurityTestingPlugin-Core
+Bundle-SymbolicName: com.polyhedral.security.testing.core;singleton:=true
+Bundle-Version: 0.3.2
+Bundle-Activator: com.polyhedral.security.testing.core.Activator
+Bundle-Vendor: Polyhedral Technologies LLC
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
