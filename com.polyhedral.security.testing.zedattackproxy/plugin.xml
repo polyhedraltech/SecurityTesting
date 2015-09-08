@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            name="ZAP Scanner"
+            icon="icons/ZAP_logo.png"
+            category="com.polyhedral.security.testing.core.category"
+            class="com.polyhedral.security.testing.zedattackproxy.views.ZAPView"
+            id="com.polyhedral.security.testing.zedattackproxy.views.ZAPView">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.help.contexts">
+      <contexts
+            file="contexts.xml">
+      </contexts>
+   </extension>
+
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            category="com.polyhedral.security.testing.preferences"
+            class="com.polyhedral.security.testing.zedattackproxy.preferences.ZAPPreferencePage"
+            id="com.polyhedral.security.testing.preferences.zedattackproxy"
+            name="Zed Attack Proxy">
+      </page>
+   </extension>
+
+</plugin>
