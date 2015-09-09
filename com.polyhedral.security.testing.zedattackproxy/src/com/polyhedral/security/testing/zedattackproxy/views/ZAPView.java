@@ -366,7 +366,7 @@ public class ZAPView extends ViewPart implements IZAPEventListener {
 					}
 					Label scanName = new Label(scanComposite, SWT.WRAP);
 					scanName.setLayoutData(new GridData(SWT.FILL, SWT.FILL, false, true));
-					((GridData) scanName.getLayoutData()).widthHint = 150;
+					((GridData) scanName.getLayoutData()).widthHint = 200;
 					scanName.setText(name);
 					new Label(scanComposite, SWT.NONE).setText(status + " (" + timeCount + " ms)");
 				}
@@ -378,7 +378,7 @@ public class ZAPView extends ViewPart implements IZAPEventListener {
 			new Label(scanComposite, SWT.NONE).setText("0%");
 		}
 
-		pageComposite.setSize(pageComposite.computeSize(300, SWT.DEFAULT));
+		pageComposite.setSize(pageComposite.computeSize(350, SWT.DEFAULT));
 
 		refreshParent();
 	}
@@ -440,12 +440,12 @@ public class ZAPView extends ViewPart implements IZAPEventListener {
 
 		Label secondColumnHeader = new Label(levelsComposite, SWT.WRAP);
 		secondColumnHeader.setLayoutData(new GridData(SWT.CENTER, SWT.NONE, false, true));
-		((GridData) secondColumnHeader.getLayoutData()).widthHint = 110;
+		((GridData) secondColumnHeader.getLayoutData()).widthHint = 135;
 		secondColumnHeader.setText("Attack Strength");
 
 		Label thirdColumnHeader = new Label(levelsComposite, SWT.WRAP);
 		thirdColumnHeader.setLayoutData(new GridData(SWT.CENTER, SWT.NONE, false, true));
-		((GridData) thirdColumnHeader.getLayoutData()).widthHint = 110;
+		((GridData) thirdColumnHeader.getLayoutData()).widthHint = 135;
 		thirdColumnHeader.setText("Alert Threshold");
 
 		try {
@@ -463,7 +463,7 @@ public class ZAPView extends ViewPart implements IZAPEventListener {
 			ConsolePlugin.log(e);
 		}
 
-		pageComposite.setSize(pageComposite.computeSize(300, SWT.DEFAULT));
+		pageComposite.setSize(pageComposite.computeSize(350, SWT.DEFAULT));
 
 		refreshParent();
 	}

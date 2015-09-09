@@ -3,10 +3,10 @@
    <description name="Security Testing">
       Security testing tools for Eclipse.
    </description>
-   <feature url="features/com.polyhedral.security.testing.core.feature_0.3.4.qualifier.jar" id="com.polyhedral.security.testing.core.feature" version="0.3.4.qualifier">
+   <feature url="features/com.polyhedral.security.testing.core.feature_0.3.5.RELEASE.jar" id="com.polyhedral.security.testing.core.feature" version="0.3.5.RELEASE">
       <category name="com.polyhedral.security.testing"/>
    </feature>
-   <feature url="features/com.polyhedral.security.testing.zedattackproxy.feature_0.3.4.qualifier.jar" id="com.polyhedral.security.testing.zedattackproxy.feature" version="0.3.4.qualifier">
+   <feature url="features/com.polyhedral.security.testing.zedattackproxy.feature_0.3.5.RELEASE.jar" id="com.polyhedral.security.testing.zedattackproxy.feature" version="0.3.5.RELEASE">
       <category name="com.polyhedral.security.testing"/>
    </feature>
    <category-def name="com.polyhedral.security.testing" label="Security Testing">

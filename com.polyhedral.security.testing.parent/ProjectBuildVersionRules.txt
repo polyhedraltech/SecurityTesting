@@ -3,7 +3,7 @@ SNAPSHOT) for performing development builds, the Security Testing project is goi
 version convention:  
 
 - Development builds will use -SNAPSHOT for Maven-related artifacts and X.X.X.qualifier for OSGi artifacts.
-- Release builds will replace -SNAPSHOT with .RELEASE and X.X.X (no qualifier) for OSGi artifacts.
+- Release builds will replace -SNAPSHOT with .RELEASE and X.X.X.RELEASE (no qualifier) for OSGi artifacts.
 
 The following configuration items need to be updated with the correct version information when switching 
 from development to release build versioning:

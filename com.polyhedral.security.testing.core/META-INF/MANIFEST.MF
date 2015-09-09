@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: SecurityTestingPlugin-Core
 Bundle-SymbolicName: com.polyhedral.security.testing.core;singleton:=true
-Bundle-Version: 0.3.4.qualifier
+Bundle-Version: 0.3.5.RELEASE
 Bundle-Activator: com.polyhedral.security.testing.core.Activator
 Bundle-Vendor: Polyhedral Technologies LLC
 Require-Bundle: org.eclipse.ui,

@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>com.polyhedral.security.testing</groupId>
 		<artifactId>com.polyhedral.security.testing.parent</artifactId>
-		<version>0.3.4-SNAPSHOT</version>
+		<version>0.3.5.RELEASE</version>
 		<relativePath>../com.polyhedral.security.testing.parent/pom.xml</relativePath>
 	</parent>
 	<artifactId>com.polyhedral.security.testing.core</artifactId>
