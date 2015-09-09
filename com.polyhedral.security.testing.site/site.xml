@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/com.polyhedral.security.testing.zedattackproxy.feature_0.3.2.jar" id="com.polyhedral.security.testing.zedattackproxy.feature" version="0.3.2">
+   <feature url="features/com.polyhedral.security.testing.zedattackproxy.feature_0.3.3.qualifier.jar" id="com.polyhedral.security.testing.zedattackproxy.feature" version="0.3.3.qualifier">
       <category name="com.polyhedral.security.testing"/>
    </feature>
-   <feature url="features/com.polyhedral.security.testing.core.feature_0.3.2.jar" id="com.polyhedral.security.testing.core.feature" version="0.3.2">
+   <feature url="features/com.polyhedral.security.testing.core.feature_0.3.3.qualifier.jar" id="com.polyhedral.security.testing.core.feature" version="0.3.3.qualifier">
       <category name="com.polyhedral.security.testing"/>
    </feature>
    <category-def name="com.polyhedral.security.testing" label="Polyhedral Technologies - Security Testing Suite"/>

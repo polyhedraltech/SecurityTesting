@@ -2,7 +2,7 @@
 <feature
       id="com.polyhedral.security.testing.core.feature"
       label="Security Testing - Core"
-      version="0.3.2"
+      version="0.3.3.qualifier"
       provider-name="Polyhedral Technologies LLC">
 
    <description>
@@ -23,7 +23,7 @@ Subject to the terms and conditions of this License, each Contributor hereby gra
          id="com.polyhedral.security.testing.core"
          download-size="0"
          install-size="0"
-         version="0.3.2"
+         version="0.3.3.qualifier"
          unpack="false"/>
 
 </feature>
