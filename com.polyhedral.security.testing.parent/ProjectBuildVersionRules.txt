@@ -1,0 +1,24 @@
+Because OSGi and Maven have differing rules about which version is "larger" when using a qualifier (such as 
+SNAPSHOT) for performing development builds, the Security Testing project is going to take the following
+version convention:  
+
+- Development builds will use -SNAPSHOT for Maven-related artifacts and X.X.X.qualifier for OSGi artifacts.
+- Release builds will replace -SNAPSHOT with .RELEASE and X.X.X (no qualifier) for OSGi artifacts.
+
+The following configuration items need to be updated with the correct version information when switching 
+from development to release build versioning:
+
+All Eclipse Projects
+- pom.xml -> <version> tag (can exist in multiple places if version differs from parent)
+
+Eclipse Plugin Projects
+- MANIFEST.MF -> Bundle-Version tag
+
+Eclipse Feature Projects
+- feature.xml -> version tag (can exist in multiple places)
+
+Eclipse Update Site Projects
+- category.xml -> url tag (can exist in multiple places)
+               -> version tag (can exist in multiple places)
+- site.xml -> url tag (can exist in multiple places)
+           -> version tag (can exist in multiple places)
