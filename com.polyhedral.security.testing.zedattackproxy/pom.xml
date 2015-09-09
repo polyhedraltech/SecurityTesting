@@ -9,7 +9,6 @@
 		<version>0.3.3-SNAPSHOT</version>
 		<relativePath>../com.polyhedral.security.testing.parent/pom.xml</relativePath>
 	</parent>
-	<groupId>com.polyhedral.security.testing</groupId>
 	<artifactId>com.polyhedral.security.testing.zedattackproxy</artifactId>
 	<packaging>eclipse-plugin</packaging>
 </project>
