@@ -2,3 +2,5 @@
 /plugins/
 /artifacts.jar
 /content.jar
+/.settings/
+/.project
