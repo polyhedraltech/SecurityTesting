@@ -1,3 +1,5 @@
+# SecurityTesting #
+
 SecurityTesting is an open source IDE plugin designed to allow developers to run security testing tools from within their IDE.  The following IDEs and tools are currently supported:
 
 ####IDE
